@@ -81,4 +81,4 @@ git add <your-filename>
 git commit -m "Homework3" 
 git push
 ```
-After you push your code to your repository, follow the instructions [here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) to create a pull request for this repository. Finally, submit the hyperlink of the pull request to UCD Canvas. The hyperlink should look like this - "https://github.com/ucdavis/ecs163-25s/pull/{your-pull-request-id}".
+After you push your code to your repository, follow the instructions [here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) to create a pull request for this repository. Finally, submit the hyperlink of the pull request to UCD Canvas. The hyperlink should look like this - "https://github.com/via-teaching/ecs163-25s/pull/{your-pull-request-id}".

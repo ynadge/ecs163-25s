@@ -2,6 +2,10 @@ let abFilter = 25;
 const width = window.innerWidth;
 const height = window.innerHeight;
 
+const svg = d3.select("svg")
+    .attr("width", width)
+    .attr("height", height);
+
 let scatterLeft = 0, scatterTop = 0;
 let scatterMargin = {top: 10, right: 30, bottom: 30, left: 60},
     scatterWidth = 400 - scatterMargin.left - scatterMargin.right,
@@ -40,8 +44,6 @@ d3.csv("players.csv").then(rawData =>{
     console.log("processedData", processedData);
 
     //plot 1: Scatter Plot
-    const svg = d3.select("svg");
-
     const g1 = svg.append("g")
                 .attr("width", scatterWidth + scatterMargin.left + scatterMargin.right)
                 .attr("height", scatterHeight + scatterMargin.top + scatterMargin.bottom)
